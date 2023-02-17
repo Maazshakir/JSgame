@@ -1,0 +1,163 @@
+/*global styling*/
+img{
+    width: 160px;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+/*------index.html----------*/
+
+body{
+    background-color: #3C280D;
+}
+
+/*header*/
+.header{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.header h2{
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.header p{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+/*interface*/
+.interface{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #0a0703;
+    border-radius: 10px;
+}
+
+.interface a{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.interface a:hover{
+    background-color: #38260e;
+}
+
+.interface div{
+    width: 92%;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.interface a h3{
+    color: darkgoldenrod;
+    font-family: cursive;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.interface a p{
+    color: white;
+    font-family: cursive;
+}
+
+.interface img{
+    padding: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*----Fight-page*-----/
+
+/*Player*/
+.player-fight{
+    text-align: center;
+}
+.player-img{
+    width: 120px;
+}
+
+.player-status h3,.player-status p{
+    width: 350px;
+    color: whitesmoke;
+}
+
+/*Enemy*/
+
+.enemy{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #0a0703;
+    align-content: center;
+    text-align: center;
+
+}
+
+.enemy-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+.enemy-status h3,.enemy-status p{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+
+/*Arena*/
+.arena{
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    background-image: url("../resources/img/Arena.jpg");
+    border-image-repeat: none;
+    visibility: hidden;
+    align-content: center;
+}
+
+.arena h3{
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: cursive;
+    width: 110px;
+    line-height: 130px;
+    margin: auto;
+}
+
+/*action button*/
+.action{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.action a{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #0a0703;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
